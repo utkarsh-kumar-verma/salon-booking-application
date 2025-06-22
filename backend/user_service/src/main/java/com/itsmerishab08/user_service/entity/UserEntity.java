@@ -1,9 +1,6 @@
 package com.itsmerishab08.user_service.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,9 +18,12 @@ public class UserEntity {
     @GeneratedValue(strategy = GenerationType.UUID)
     private String userId;
     private String fullName;
+    @Column(unique = true, nullable = false)
     private String email;
+    @Column(unique = true, nullable = false)
     private String phoneNumber;
     private String role;
+    @Column(nullable = false)
     private String password;
     private Date createdAt;
     private Date updatedAt;

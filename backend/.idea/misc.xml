@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/user_service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Salon Microservice/backend/salon-salon-service/pom.xml" />
+        <option value="$PROJECT_DIR$/salon-service/pom.xml" />
       </list>
     </option>
   </component>
