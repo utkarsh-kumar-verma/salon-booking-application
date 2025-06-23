@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/user_service/pom.xml" />
         <option value="$PROJECT_DIR$/../../Salon Microservice/backend/salon-salon-service/pom.xml" />
         <option value="$PROJECT_DIR$/salon-service/pom.xml" />
+        <option value="$PROJECT_DIR$/category-service/pom.xml" />
+        <option value="$PROJECT_DIR$/service-offering-service/pom.xml" />
       </list>
     </option>
   </component>
